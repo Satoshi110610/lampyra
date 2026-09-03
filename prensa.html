@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LAMPYRA — Kit de prensa / Press Kit</title>
+<meta name="description" content="Kit de prensa de LAMPYRA, un arcade de luciérnagas para iPhone: datos, capturas y contacto.">
+<style>
+  :root { color-scheme: dark; }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 40px 20px 80px;
+    background: linear-gradient(180deg, #1a1e48 0%, #0d1128 60%, #090d22 100%);
+    color: #eef2ff;
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    min-height: 100vh;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  header { text-align: center; margin-bottom: 40px; }
+  .dot {
+    width: 18px; height: 18px; border-radius: 50%;
+    background: #96ff6e; margin: 0 auto 20px;
+    box-shadow: 0 0 24px 8px rgba(150,255,110,.55);
+  }
+  h1 { font-size: 44px; letter-spacing: .14em; margin: 0 0 6px; color: #ffe97a; }
+  .sub { color: #7de6ff; letter-spacing: .08em; font-size: 14px; text-transform: uppercase; }
+  h2 { font-size: 22px; color: #ffe97a; margin: 38px 0 12px; }
+  h3 { font-size: 16px; color: #7de6ff; margin: 22px 0 6px; letter-spacing: .04em; }
+  section {
+    background: rgba(255,255,255,.04);
+    border: 1px solid rgba(125,230,255,.16);
+    border-radius: 18px; padding: 24px 28px; margin-bottom: 20px;
+  }
+  a { color: #7de6ff; }
+  ul { padding-left: 20px; } li { margin: 8px 0; }
+  .muted { color: #9aa6c8; font-size: 14px; }
+  footer { text-align: center; margin-top: 56px; color: #9aa6c8; font-size: 13px; }
+  hr { border: 0; border-top: 1px solid rgba(255,255,255,.1); margin: 40px 0; }
+
+  /* Ficha técnica: dos columnas en pantalla ancha, una en el móvil. */
+  dl.facts { display: grid; grid-template-columns: max-content 1fr; gap: 8px 20px; margin: 0; }
+  dl.facts dt { color: #9aa6c8; }
+  dl.facts dd { margin: 0; }
+  @media (max-width: 520px) {
+    dl.facts { grid-template-columns: 1fr; gap: 2px; }
+    dl.facts dd { margin-bottom: 12px; }
+  }
+
+  .shots { display: grid; grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); gap: 14px; }
+  .shots img {
+    width: 100%; height: auto; display: block;
+    border-radius: 12px; border: 1px solid rgba(125,230,255,.2);
+  }
+  .quote {
+    border-left: 3px solid rgba(255,233,122,.6);
+    padding-left: 16px; margin: 16px 0; color: #dfe6ff;
+  }
+  code {
+    background: rgba(255,255,255,.07); padding: 2px 6px; border-radius: 5px;
+    font-size: 14px;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <div class="dot"></div>
+    <h1>LAMPYRA</h1>
+    <p class="sub">Kit de prensa · Press Kit</p>
+  </header>
+
+  <section>
+    <h2 style="margin-top:0">En una frase</h2>
+    <p class="quote">Eres la reina de las luciérnagas y el bosque se ha quedado
+       a oscuras: guía tu enjambre de luz hacia arriba, recluta a las silvestres
+       y enciende los faroles antes de que los murciélagos te encuentren.</p>
+    <p>LAMPYRA es un arcade de ascenso vertical para iPhone. Se juega con un
+       solo dedo, las partidas duran unos dos minutos y funciona sin conexión.
+       Cuanto más brilla tu enjambre, más rápido creces &mdash; y más fácil te
+       localizan los depredadores. Esa es toda la tensión del juego.</p>
+  </section>
+
+  <section>
+    <h2 style="margin-top:0">Ficha técnica</h2>
+    <dl class="facts">
+      <dt>Título</dt>          <dd>LAMPYRA</dd>
+      <dt>Desarrollo</dt>      <dd>Jesús Martínez (desarrollador independiente, Chile)</dd>
+      <dt>Plataforma</dt>      <dd>iPhone y iPad — iOS 15 o posterior</dd>
+      <dt>Género</dt>          <dd>Arcade de ascenso, casual</dd>
+      <dt>Modelo</dt>          <dd>Gratis, con compras opcionales de polen. Sin anuncios.</dd>
+      <dt>Idiomas</dt>         <dd>Español, inglés, francés, italiano, japonés y chino simplificado</dd>
+      <dt>Conexión</dt>        <dd>No necesita: se juega entero sin internet</dd>
+      <dt>Clasificación</dt>   <dd>4+</dd>
+      <dt>Motor</dt>           <dd>Godot 4</dd>
+      <dt>Web</dt>             <dd><a href="index.html">satoshi110610.github.io/lampyra</a></dd>
+      <dt>Contacto</dt>        <dd><a href="mailto:soporte.lampyra@gmail.com">soporte.lampyra@gmail.com</a></dd>
+    </dl>
+  </section>
+
+  <section>
+    <h2 style="margin-top:0">Qué lo distingue</h2>
+    <ul>
+      <li><strong>Un enjambre, no un personaje.</strong> No controlas una nave:
+          controlas una reina que arrastra tras de sí a decenas de luciérnagas
+          reclutadas, cada una con su propia inercia.</li>
+      <li><strong>Brillar tiene precio.</strong> La <em>llamada</em> recluta más
+          rápido, pero es también lo que te delata ante murciélagos y avispones.</li>
+      <li><strong>Cuatro bosques que se suceden</strong> a medida que asciendes:
+          el Bosque Profundo, el Pinar, el Claro de las Setas y las Copas
+          Floridas.</li>
+      <li><strong>20 niveles y un final.</strong> No es un <em>endless runner</em>:
+          hay una meta y se puede terminar.</li>
+      <li><strong>NOVA</strong>, el superpoder: derriba a todos los enemigos en
+          pantalla y levanta un escudo de luz durante dos minutos.</li>
+      <li><strong>Sin anuncios y sin cuentas.</strong> No recoge ningún dato
+          personal; el progreso se guarda en el propio dispositivo.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2 style="margin-top:0">Capturas</h2>
+    <div class="shots">
+      <img src="img/1_llamada.jpg" alt="La reina de las luciérnagas usando la llamada en el Bosque Profundo" loading="lazy">
+      <img src="img/8_pinar.jpg" alt="El enjambre atravesando el Pinar" loading="lazy">
+      <img src="img/2_claro_setas.jpg" alt="El Claro de las Setas, con faroles y una telaraña" loading="lazy">
+      <img src="img/5_copas_floridas.jpg" alt="Las Copas Floridas, el último bioma" loading="lazy">
+      <img src="img/4_superpoder_nova.jpg" alt="El superpoder NOVA activado" loading="lazy">
+      <img src="img/3_victoria.jpg" alt="Pantalla final tras superar los 20 niveles" loading="lazy">
+    </div>
+    <p class="muted" style="margin-top:16px">Estas versiones están reducidas para
+       la web. Si necesitas las capturas a resolución completa, el icono en
+       1024&nbsp;px o un vídeo de juego,
+       <a href="mailto:soporte.lampyra@gmail.com?subject=Material%20de%20prensa%20LAMPYRA">pídemelo
+       por correo</a> y te lo envío el mismo día.</p>
+  </section>
+
+  <section>
+    <h2 style="margin-top:0">Descripciones listas para copiar</h2>
+
+    <h3>Una línea</h3>
+    <p>Guía tu enjambre de luciérnagas bosque arriba y enciende los faroles
+       antes de que los murciélagos te encuentren.</p>
+
+    <h3>Párrafo corto</h3>
+    <p>LAMPYRA es un arcade de ascenso para iPhone en el que eres la reina de
+       las luciérnagas. Reclutas luciérnagas silvestres, enciendes los faroles
+       apagados del bosque y esquivas a los depredadores a lo largo de cuatro
+       paisajes y veinte niveles. Se juega con un solo dedo, sin conexión y sin
+       anuncios.</p>
+
+    <h3>Sobre el autor</h3>
+    <p>LAMPYRA es el primer juego de Jesús Martínez, desarrollador independiente
+       chileno. Está hecho con Godot 4 y su arte y su sonido se generan de forma
+       procedural a partir de una única paleta, lo que le da su aspecto uniforme.</p>
+  </section>
+
+  <hr>
+
+  <section>
+    <h2 style="margin-top:0">Press Kit (English)</h2>
+    <p class="quote">You are the queen of the fireflies, and the forest has gone
+       dark: guide your swarm of light upward, recruit the wild ones and relight
+       the lanterns before the bats find you.</p>
+    <p>LAMPYRA is a vertical arcade climber for iPhone. One thumb, two-minute
+       runs, fully offline. The brighter your swarm shines, the faster it grows
+       &mdash; and the easier the predators spot you.</p>
+    <dl class="facts">
+      <dt>Developer</dt>     <dd>Jesús Martínez (solo developer, Chile)</dd>
+      <dt>Platform</dt>      <dd>iPhone and iPad — iOS 15+</dd>
+      <dt>Genre</dt>         <dd>Arcade climber, casual</dd>
+      <dt>Price</dt>         <dd>Free, optional pollen purchases. No ads.</dd>
+      <dt>Languages</dt>     <dd>Spanish, English, French, Italian, Japanese, Simplified Chinese</dd>
+      <dt>Engine</dt>        <dd>Godot 4</dd>
+      <dt>Press contact</dt> <dd><a href="mailto:soporte.lampyra@gmail.com">soporte.lampyra@gmail.com</a></dd>
+    </dl>
+    <p class="muted" style="margin-top:16px">Full-resolution screenshots, the
+       1024&nbsp;px icon and gameplay footage are available on request &mdash;
+       just email me.</p>
+    <p><a href="index.html">Support</a> · <a href="privacidad.html">Privacy Policy</a></p>
+  </section>
+
+  <footer>
+    © 2026 Jesús Martínez · LAMPYRA
+  </footer>
+
+</div>
+</body>
+</html>
